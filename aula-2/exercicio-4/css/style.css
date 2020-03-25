@@ -26,6 +26,23 @@ body {
         margin-right: 15px;
         vertical-align: top;
     }
+    @media screen and (max-width: 500px){
+        label {
+            width: auto;
+            display: block;
+            text-align: left;
+        }
+        div {
+            display: block;
+            width: 53%;
+            justify-content: center;
+        }
+        button {
+            justify-content: left;
+            align-items: flex-start;
+            width: 53%;
+        }
+    }
 
     input[type="text"], select, input[type="number"] {
         font-family: 'Open Sans', Arial, Helvetica, sans-serif;
